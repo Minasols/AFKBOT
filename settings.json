@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "Jimmy",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "Jimmy",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "BARNTLIFESTEAL.aternos.me",
+    "port": 60611,
     "version": "",
     "try-creative": false
   },
@@ -27,13 +27,11 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I like this game but verity better"
       ]
     },
     "chat-log": true,
@@ -44,29 +42,29 @@
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
